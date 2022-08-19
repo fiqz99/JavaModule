@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Ballon APP</title>
+</head>
+<body>
+<h1>ENTER SOME WORD IN BOX</h1>
+<form action="test" method="post">
+    <label>Please enter text</label>
+    <input type="text" name="someString">
+    <button type="submit">Enter</button>
+</form>
+<p th:text = "${string}"></p>
+</body>
+</html>
